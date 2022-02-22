@@ -14,6 +14,8 @@
     box-sizing: border-box;
     font-family: 'Roboto Mono', monospace; ;
 }
+/*Utilities*/
+
 
 .page{
     height: 100vh;
@@ -32,7 +34,24 @@ p{
     font-weight: 500;
     text-align: center;   
 }
+/*Pages common structure*/
 
+.buttons{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+button{
+    border: 0px solid white;
+    border-width: 10px;
+    background-color: white;
+    border-radius: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+/*Buttons*/
 
 .first{
     background-color: var(--red_page);
@@ -49,3 +68,4 @@ p{
     color: var(--green_page);
     text-transform: uppercase;
 }
+/*Colors*/
