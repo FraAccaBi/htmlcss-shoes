@@ -79,3 +79,8 @@ li{
 .converse{
     padding-top: 10vh;
 }
+a:link:not(#exclude), a:visited:not(#exclude) {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
