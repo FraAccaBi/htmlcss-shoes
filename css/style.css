@@ -1,7 +1,12 @@
 :root{
     --red_page:rgba(255, 0, 0, 1);
     --green_page: rgba(0, 128, 0, 1);
-    -yellow_page:rgba(255, 255, 0, 1);
+    --yellow_page:rgba(255, 255, 0, 1);
+}
+.clearfix{
+    content:"";
+    display: table;
+    clear: both;
 }
 *{
     margin: 0;
@@ -9,19 +14,38 @@
     box-sizing: border-box;
     font-family: 'Roboto Mono', monospace; ;
 }
+
 .page{
     height: 100vh;
+    width: 100%;
     position: relative;
 }
-.page img{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    display: block;
-    height: 300px;
+.page img, p{
+    float: left;    
 }
-.first{
-    background-color: red;
+img{
+    margin: 0px 360px;
+}
+p{
+    width: 100%;
+    font-size: 70px;
+    font-weight: 500;
+    text-align: center;   
+}
 
+
+.first{
+    background-color: var(--red_page);
+    color: var(--yellow_page);
+    text-transform: uppercase;
+}
+.second{
+    background-color: var(--greed_page);
+    color: var(--yellow_page);
+    text-transform: uppercase;
+}
+.third{
+    background-color: var(--yellow_page);
+    color: var(--green_page);
+    text-transform: uppercase;
 }
