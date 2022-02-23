@@ -3,11 +3,6 @@
     --green_page: rgba(0, 128, 0, 1);
     --yellow_page:rgba(255, 255, 0, 1);
 }
-.clearfix{
-    content:"";
-    display: table;
-    clear: both;
-}
 *{
     margin: 0;
     padding: 0;
@@ -22,7 +17,6 @@
     width: 100%;
     position: relative;
 }
-
 img{   
     height: 70vh;
     margin: 0px auto; 
@@ -55,8 +49,6 @@ li{
     padding-right: 5px;
     margin: 40px 20px;
 }
-
-
 /*Buttons*/
 
 .first{
@@ -64,7 +56,6 @@ li{
     color: var(--yellow_page);
     text-transform: uppercase;
 }
-
 .second{
     background-color: var(--green_page);
     color: var(--yellow_page);
@@ -76,6 +67,7 @@ li{
     text-transform: uppercase;
 }
 /*Colors*/
+
 .converse{
     padding-top: 10vh;
 }
