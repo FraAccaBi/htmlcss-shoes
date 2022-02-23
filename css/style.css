@@ -44,7 +44,6 @@ html{
 li{
     display: inline;
     list-style: none;
-    text-decoration: none;
     border: 0px solid white;
     border-width: 10px;
     background-color: white;
@@ -52,6 +51,9 @@ li{
     padding-left: 5px;
     padding-right: 5px;
     margin: 40px 20px;
+}
+a{
+    text-decoration: none;
 }
 /*Buttons*/
 
@@ -75,8 +77,5 @@ li{
 .converse{
     padding-top: 10vh;
 }
-a:link:not(#exclude), a:visited:not(#exclude) {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-}
+
+
