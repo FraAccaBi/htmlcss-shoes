@@ -30,12 +30,16 @@ p{
     line-height: 60px;  
     margin: 0px auto;
 }
+html{
+    scroll-behavior: smooth;
+}
 /*Pages common structure*/
 
 .buttons{
-    position: absolute;
+    position: fixed;
     top: 30px;
     right: 0px;
+    z-index: 1;
 }
 li{
     display: inline;
